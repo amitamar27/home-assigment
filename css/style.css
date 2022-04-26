@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+.helper {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app-main {
+    height: 90vh;
+}
+
+
+/* header */
+.app-header {
+    padding: 20px;
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.router-link-active {
+    color: green
+}
+
+
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    gap: 25px;
+    padding-top: 25px;
+    /* width: 200px; */
+}
+
+.movie-list li {
+    padding: 13px;
+    background-color: darkgray;
+    text-align: center;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 10px;
+}
