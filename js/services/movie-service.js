@@ -25,7 +25,7 @@ function query() {
 
 
 function getById(movieId) {
-  return storageService.get(MOVIES_KEY, movieId)
+  return  storageService.get(MOVIES_KEY, movieId)
 }
 
 
