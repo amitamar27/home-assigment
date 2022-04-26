@@ -4,7 +4,7 @@ export default {
     name: 'app-header',
     template: `
         <div class="app-header">
-            <p>{{msg}}</p>
+            <p>{{title}}</p>
             <div class="navs">
                 <router-link exact to="/">Home |</router-link>
                 <router-link to="/home">Movies</router-link>
@@ -13,7 +13,7 @@ export default {
     `,
     data() {
         return {
-            msg: 'MovieApp'
+            title: 'MovieApp'
         }
     }
 }
